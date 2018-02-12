@@ -20,7 +20,5 @@ def __init__():
                 test.config(background = "#000")
 
 __init__()
-test = Frame(root, width=30, height=30, bg="#BBB")
-test.grid(row=5, column=5, bg="999000")
 
-root.mainloop() #start monitoring and updating the GUI
+root.mainloop()
